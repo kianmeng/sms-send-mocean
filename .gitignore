@@ -1,3 +1,8 @@
+/SMS-Net-Send-*
+/.prove
+*.swp
+/t/.env.live
+
 !Build/
 .last_cover_stats
 /META.yml
