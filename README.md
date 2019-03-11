@@ -1,7 +1,3 @@
-[![Build Status](https://travis-ci.org/kianmeng/sms-send-mocean.svg?branch=master)](https://travis-ci.org/kianmeng/sms-send-mocean)
-[![codecov](https://codecov.io/gh/kianmeng/sms-send-mocean/branch/master/graph/badge.svg)](https://codecov.io/gh/kianmeng/sms-send-mocean)
-[![Coverage Status](https://coveralls.io/repos/kianmeng/sms-send-mocean/badge.svg?branch=master)](https://coveralls.io/r/kianmeng/sms-send-mocean?branch=master)
-[![Kwalitee status](http://cpants.cpanauthors.org/dist/SMS-Net-Send.png)](http://cpants.charsbar.org/dist/overview/SMS-Net-Send)
 [![Cpan license](https://img.shields.io/cpan/l/SMS-Net-Send.svg)](https://metacpan.org/release/SMS-Net-Send)
 [![Cpan version](https://img.shields.io/cpan/v/SMS-Net-Send.svg)](https://metacpan.org/release/SMS-Net-Send)
 
