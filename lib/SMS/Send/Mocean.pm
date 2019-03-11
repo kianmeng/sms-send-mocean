@@ -132,12 +132,13 @@ https://moceanapi.com/.
 
     use SMS::Send;
 
-    my $sms = SMS::Send->new(
+    my $gateway = SMS::Send->new(
         'Mocean',
         '_api_key' => 'foo',
         '_api_secret' => 'bar'
     );
-    $sms->send_sms(
+
+    $gateway->send_sms(
         to => '+60123456789',
         ext => 'Hello',
         _from => 'foobar'
@@ -160,7 +161,7 @@ How to contribute? Follow through the L<CONTRIBUTING.md|https://github.com/kianm
 
 Construct a new SMS::Send instance.
 
-    my $sms = SMS::Send->new(
+    my $gateway = SMS::Send->new(
         'Mocean',
         '_api_key' => 'foo',
         '_api_secret' => 'bar'
@@ -180,14 +181,14 @@ Send the SMS text to a mobile user.
 
     # Default parameters with XML response format if the '_resp_format' field
     # is not defined.
-    $sms->send_sms(
+    $gateway->send_sms(
         to => '+60123456789',
         ext => 'Hello',
         _from => 'foobar',
     );
 
     # With JSON response format.
-    $sms->send_sms(
+    $gateway->send_sms(
         to => '+60123456789',
         ext => 'Hello',
         _from => 'foobar',
@@ -218,7 +219,7 @@ start with underscore. For example, '_resp_format'. This driver will convert the
 parameter name to equivalent format used by Mocean. In this case, '_foo_bar'
 will be formatted as 'mocean-resp-format'.
 
-    $sms->send_sms(
+    $gateway->send_sms(
         to => '+60123456789',
         ext => 'Hello',
         _from => 'foobar',
