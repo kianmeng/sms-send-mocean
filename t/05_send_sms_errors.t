@@ -20,9 +20,10 @@ my ($got, $gateway) = ('', '');
 
 $gateway = SMS::Send->new(
     'Mocean',
-    _api_key => $ENV{MOCEAN_API_KEY} . "xxx',
+    _api_key => $ENV{MOCEAN_API_KEY} . "xxx",
     _api_secret => $ENV{MOCEAN_API_SECRET} . "xxx",
 );
+
 
 dies_ok {
     $got = $gateway->send_sms(
@@ -31,6 +32,5 @@ dies_ok {
         _from => $ENV{MOCEAN_FROM},
     );
 } 'Expect die on incorrect API authentication.';
-
 
 done_testing;
