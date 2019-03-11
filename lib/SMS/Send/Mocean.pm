@@ -23,7 +23,7 @@ sub new {
     _required($args, qw(_api_key _api_secret));
 
     my $opts = {
-        api_url => 'https://rest.moceanapi.com/rest/1',
+        _endpoint => 'https://rest.moceanapi.com/rest/1/sms',
         %$args
     };
 
@@ -62,7 +62,7 @@ sub send_sms {
             if (defined $args->{$_});
     }
 
-    my $request = POST($self->{api_url} . "/sms", [
+    my $request = POST($self->{_endpoint}, [
         'mocean-api-key' => $self->{_api_key},
         'mocean-api-secret' => $self->{_api_secret},
         'mocean-to' => $args->{to},
@@ -75,6 +75,7 @@ sub send_sms {
         ? 'json' : 'xml';
 
     my $response = $self->{ua}->request($request);
+
     if ($response->is_success) {
         my $content = ($format eq 'json')
             ? decode_json($response->decoded_content)
