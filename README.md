@@ -1,5 +1,5 @@
-[![Cpan license](https://img.shields.io/cpan/l/SMS-Net-Send.svg)](https://metacpan.org/release/SMS-Net-Send)
-[![Cpan version](https://img.shields.io/cpan/v/SMS-Net-Send.svg)](https://metacpan.org/release/SMS-Net-Send)
+[![Cpan license](https://img.shields.io/cpan/l/SMS-Send-Mocean.svg)](https://metacpan.org/release/SMS-Send-Mocean)
+[![Cpan version](https://img.shields.io/cpan/v/SMS-Send-Mocean.svg)](https://metacpan.org/release/SMS-Send-Mocean)
 
 # NAME
 
