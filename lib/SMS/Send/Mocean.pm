@@ -230,6 +230,10 @@ this case, '_foo_bar' will be formatted as 'mocean-resp-format'.
         _charset => 'utf-8',
     );
 
+=head1 AUTHOR
+
+Kian Meng, Ang E<lt>kianmeng@cpan.orgE<gt>
+
 =head1 COPYRIGHT AND LICENSE
 
 This software is Copyright (c) 2019 Kian Meng, Ang.
@@ -237,10 +241,6 @@ This software is Copyright (c) 2019 Kian Meng, Ang.
 This is free software, licensed under:
 
     The Artistic License 2.0 (GPL Compatible)
-
-=head1 AUTHOR
-
-Kian Meng, Ang E<lt>kianmeng@cpan.orgE<gt>
 
 =head1 SEE ALSO
 

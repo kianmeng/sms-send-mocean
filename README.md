@@ -105,6 +105,10 @@ this case, '\_foo\_bar' will be formatted as 'mocean-resp-format'.
         _charset => 'utf-8',
     );
 
+# AUTHOR
+
+Kian Meng, Ang <kianmeng@cpan.org>
+
 # COPYRIGHT AND LICENSE
 
 This software is Copyright (c) 2019 Kian Meng, Ang.
@@ -112,10 +116,6 @@ This software is Copyright (c) 2019 Kian Meng, Ang.
 This is free software, licensed under:
 
     The Artistic License 2.0 (GPL Compatible)
-
-# AUTHOR
-
-Kian Meng, Ang <kianmeng@cpan.org>
 
 # SEE ALSO
 
