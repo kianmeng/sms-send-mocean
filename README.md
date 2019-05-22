@@ -29,7 +29,7 @@ https://moceanapi.com/.
 
 # DEVELOPMENT
 
-Source repo at [https://github.com/kianmeng/send-sms-mocean](https://github.com/kianmeng/sms-send-mocean).
+Source repository at [https://github.com/kianmeng/send-sms-mocean](https://github.com/kianmeng/sms-send-mocean).
 
 How to contribute? Follow through the [CONTRIBUTING.md](https://github.com/kianmeng/sms-send-mocean/blob/master/CONTRIBUTING.md) document to setup your development environment.
 
@@ -76,7 +76,7 @@ Send the SMS text to a mobile user.
 ### to
 
 Compulsory. The required field needed by SMS::Send. Only accept leading-plus
-number in the format of "+99 XXX XXXX".
+number in the format of "+99 999 9999".
 
 ### text
 
@@ -92,10 +92,10 @@ Compulsory. The login username of the Mocean API portal.
 
 Optional. Additional parameters that can be used when sending SMS. Check the
 Mocean API documentation on the [available parameters](https://moceanapi.com/docs/#sms-api).
-Due to the design constraints of [SMS::Send::Driver](https://metacpan.org/pod/SMS::Send::Driver), all parameters name must
-start with underscore. For example, '\_resp\_format'. This driver will convert the
-parameter name to equivalent format used by Mocean. In this case, '\_foo\_bar'
-will be formatted as 'mocean-resp-format'.
+Due to the design constraints of [SMS::Send::Driver](https://metacpan.org/pod/SMS::Send::Driver), all
+parameters name must start with underscore. For example, '\_resp\_format'. This
+driver will convert the parameter name to equivalent format used by Mocean. In
+this case, '\_foo\_bar' will be formatted as 'mocean-resp-format'.
 
     $gateway->send_sms(
         to => '+60123456789',
