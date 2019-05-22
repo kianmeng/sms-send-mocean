@@ -115,7 +115,7 @@ This is free software, licensed under:
 
 # AUTHOR
 
-Kian Meng, Ang <kianmeng@users.noreply.github.com>
+Kian Meng, Ang <kianmeng@cpan.org>
 
 # SEE ALSO
 
